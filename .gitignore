@@ -29,4 +29,4 @@ map_data/geojson/dugouts.geojson
 
 # unfinished lines that need to be redrawn.
 # might include in the repo later, but for now it can be filtered.
-map_data/geojson/trenches.geojson
+# map_data/geojson/trenches.geojson
