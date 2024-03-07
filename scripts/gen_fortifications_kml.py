@@ -41,6 +41,7 @@ def create_fortification_layer(parent, dataset, features):
 
                 ls.style.linestyle.width = dataset["width"]
                 ls.style.linestyle.color = dataset["color"]
+
         case "polygon":
             pass # TODO
 

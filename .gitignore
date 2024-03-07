@@ -26,8 +26,10 @@ map_data/geojson/activity.geojson
 map_data/geojson/finds.geojson
 map_data/geojson/unknown_other.geojson
 map_data/geojson/dugouts.geojson
-map_data/geojson/
 
+# unfinished lines that need to be redrawn.
+# might include in the repo later, but for now it can be filtered.
+map_data/geojson/trenches.geojson
 
 
 
