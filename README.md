@@ -1,23 +1,33 @@
-# Field Fortifications in Ukraine - Resources
+# Field Fortifications in Ukraine - Dataset
 
-This repository is for storing various datasets and 
-other resources used in our field fortifications map.
+This is a dataset which is an attempt to map field fortifications 
+which have been constructed throughout the ongoing 
+[Russo-Ukrainian War](https://en.wikipedia.org/wiki/Russo-Ukrainian_War).
 
-## Included Datasets
+### *This dataset is still incomplete and is actively being worked on.*
 
-- [Trenches](map_data/geojson/trenches_final.geojson)
-- - Primary trenches. These are lines that are finished.
-- [Trenches (Secondary)](map_data/geojson/treeline_trenches.geojson)
-- - Secondary trenches. Usually used for roughly estimated / hard to see lines.
-- [Trenches (Unfinished)](map_data/geojson/trenches.geojson)
-- - Trench lines that need to be redrawn, not included in map.
-- [Concealed Fortifications](map_data/geojson/concealed.geojson)
-- - Polygons highlighting areas that are fortified in a concealed position.
-    Mostly covering treelines near the front.
-- [Anti-tank Obstacles (Ditches)](map_data/geojson/ditches.geojson)
-- [Anti-tank Obstacles (Dragon's Teeth)](map_data/geojson/dragons_teeth.geojson)
+<br>
+
+## Accessing the dataset
+
+The data is stored in the form of Esri Shapefiles. 
+These files can be found [here.](map_data/shp/fortifications/)
+
+Each feature contains a `type` string field which denotes the type of fortification.
+
+The fortification types are as follows:
+ - `trench`: Field entrenchments.
+ - `ditch`: Anti-tank ditches.
+ - `teeth`: "Dragon's teeth" anti-tank obstacles.
+ - `fp`: Emplacements / fighting positions.
+
+**Disclaimer: Other attribute fields and fortification types may be added in the future.**
 
 ## TODO
 
-- Finish redrawing trenches and dragon's teeth along the Surovikin line.
-- Clean up and include data from other mappers.
+ - [ ] Surovikin Line
+ - - [x] Anti-tank ditches
+ - - [ ] Anti-tank obstacles
+ - - [ ] Entrenchments
+ - [ ] Redraw anti-tank ditches in Luhansk
+ - [ ] Split data into a vector tileset for release

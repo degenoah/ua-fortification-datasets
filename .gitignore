@@ -27,11 +27,7 @@ map_data/geojson/finds.geojson
 map_data/geojson/unknown_other.geojson
 map_data/geojson/dugouts.geojson
 
-# misc db stuff
-map_data/fortifications.gpkg-shm
-map_data/fortifications.gpkg-wal
-map_data/satellite_coverage.gpkg-shm
-map_data/satellite_coverage.gpkg-wal
+map_data/fortifications.qix
 
 # unfinished lines that need to be redrawn.
 # might include in the repo later, but for now it can be filtered.
