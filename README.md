@@ -27,7 +27,7 @@ The fortification types are as follows:
 
  - [ ] Surovikin Line
  - - [x] Anti-tank ditches
- - - [ ] Anti-tank obstacles
+ - - [x] Anti-tank obstacles
  - - [ ] Entrenchments
  - [ ] Redraw anti-tank ditches in Luhansk
  - [ ] Split data into a vector tileset for release
