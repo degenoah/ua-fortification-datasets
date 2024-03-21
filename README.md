@@ -30,4 +30,6 @@ The fortification types are as follows:
  - - [x] Anti-tank obstacles
  - - [ ] Entrenchments
  - [ ] Redraw anti-tank ditches in Luhansk
+ - [ ] Redraw and fix entrenchments in and around Krynky, Kherson Oblast
+ - [ ] Import secondary fortification lines into shapefile
  - [ ] Split data into a vector tileset for release
