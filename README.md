@@ -11,17 +11,23 @@ which have been constructed throughout the ongoing
 ## Accessing the dataset
 
 The data is stored in the form of Esri Shapefiles. 
-These files can be found [here.](map_data/shp/fortifications/)
+These files can be found [here.](map_data/shp/fortifications_new/)
 
-Each feature contains a `type` string field which denotes the type of fortification.
+These are the fields defined in each dataset:
 
-The fortification types are as follows:
- - `trench`: Field entrenchments.
- - `ditch`: Anti-tank ditches.
- - `teeth`: "Dragon's teeth" anti-tank obstacles.
- - `fp`: Emplacements / fighting positions.
-
-**Disclaimer: Other attribute fields and fortification types may be added in the future.**
+ - `misc.shp` - Misc fortifications.
+ - - `type (char[10])`: The type of fortification.
+ - `trenches.shp` - Trench lines and networks.
+ - - `side (char[2])`: The side that controls the trench. 
+ - - - `ua`: Trenches under Ukrainian control.
+ - - - `ru`: Trenches under Russian control.
+ - - - `??`: Trenches which is contested or whose status is unknown. 
+ - `positions.shp` - Fortifications which are represented with points instead of lines.
+ - - `type (char[80])`: The type of field position.
+ - - - `revetment`: Vehicle shelters/revetments.
+ - - - `emp`: Emplacements.
+ - - - `dugout`: Dugouts and shelters.
+ - - - For unknown/unspecified points, this value is NULL.
 
 ## TODO
 
@@ -31,5 +37,4 @@ The fortification types are as follows:
  - - [ ] Entrenchments
  - [ ] Redraw anti-tank ditches in Luhansk
  - [ ] Redraw and fix entrenchments in and around Krynky, Kherson Oblast
- - [ ] Import secondary fortification lines into shapefile
  - [ ] Split data into a vector tileset for release
