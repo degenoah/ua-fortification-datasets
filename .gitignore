@@ -7,8 +7,7 @@ fortifications_attachments.zip
 publications/
 symbologies/
 other/
-scripts/qgis_gee.py
-scripts/keybinds.py
+scripts/
 resources.txt
 
 # outdated AF
@@ -21,14 +20,11 @@ img/ukr_overview_fortifications.png
 map_data/kml/
 map_data/geojson/misc/
 map_data/geojson/community/
-
-# sorry russians, you aren't getting this.
-map_data/geojson/ua/
+map_data/geojson/uacontrolmap/
 
 map_data/geojson/activity.geojson
 map_data/geojson/finds.geojson
-map_data/geojson/unknown_other.geojson
-map_data/geojson/dugouts.geojson
+map_data/geojson/notes.geojson
 
 map_data/fortifications.qix
 
