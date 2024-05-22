@@ -2,6 +2,7 @@
 fortifications.qgs
 fortifications.qgs~
 fortifications_attachments.zip
+*.qix
 
 # unrelated stuff
 publications/
@@ -26,8 +27,3 @@ map_data/geojson/activity.geojson
 map_data/geojson/finds.geojson
 map_data/geojson/notes.geojson
 
-map_data/fortifications.qix
-
-# unfinished lines that need to be redrawn.
-# might include in the repo later, but for now it can be filtered.
-# map_data/geojson/trenches.geojson
